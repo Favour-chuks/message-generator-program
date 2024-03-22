@@ -8,14 +8,36 @@
   <body>
     <h1>hello world</h1>
 
-    <section class="display-area" style="height: 50px;width: 250px;border: 1px solid grey; padding: 4px;">
+    <section
+      class="display-area"
+      style="height: 50px; width: 250px; border: 1px solid grey; padding: 4px">
       this is where all the replies would be displayed
     </section>
 
     <form action="post">
       <label for="text">What is your Horoscope sign</label>
-      <input type="text" style="display: block" name="test" id="text-area" />
-      <input type="button" value="Submit"/>
+      <input
+        type="text"
+        style="
+          display: block;
+          width: 250px;
+          height: 75px;
+          color: black;
+          margin-bottom: 10px;
+        "
+        name="test"
+        id="text-area"
+        placeholder="Cancer" />
+      <input
+        type="button"
+        value="Submit"
+        style="
+          border: none;
+          background-color: skyblue;
+          width: 260px;
+          height: 30px;
+          color: whitesmoke;
+        " />
     </form>
   </body>
 </html>
